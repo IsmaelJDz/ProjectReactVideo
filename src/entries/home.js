@@ -7,7 +7,7 @@ import data from '../api.json';
 
 
 
-const app = document.getElementById('app');
+const homeContainer = document.getElementById('home-container');
 
 //render(<Playlist data={data} /> , app);
-render( <Home data={data} />, app);
+render( <Home data={data} />, homeContainer);
